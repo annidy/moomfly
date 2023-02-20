@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug moomfly",
+            "program": "${workspaceFolder:moomfly}/.build/debug/moomfly",
+            "args": [],
+            "cwd": "${workspaceFolder:moomfly}",
+            "preLaunchTask": "swift: Build Debug moomfly"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Release moomfly",
+            "program": "${workspaceFolder:moomfly}/.build/release/moomfly",
+            "args": [],
+            "cwd": "${workspaceFolder:moomfly}",
+            "preLaunchTask": "swift: Build Release moomfly"
+        }
+    ]
+}
