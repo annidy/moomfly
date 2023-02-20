@@ -26,7 +26,7 @@ public struct moomfly {
                 exit(1)
             }
             print("check")
-            if model.c >= 100 {
+            if model.c >= 99 {
                 print("fly...")
                 model.c = 1
                 let encoder = PropertyListEncoder()
